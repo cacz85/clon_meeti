@@ -1,0 +1,16 @@
+{
+  "name": "meeti",
+  "version": "1.0.0",
+  "description": "Meeti con Bootstrap 5 y SASS",
+  "main": "index.js",
+  "scripts": {
+    "compilar:sass": "sass --watch src/scss/:build/css",
+    "build:sass": "purgecss --css build/css/style.css --content index.html --output build/css/styles_meeti.css"
+  },
+  "author": "Carlos A. Castillo Zamora",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^5.1.3",
+    "sass": "^1.50.1"
+  }
+}
